@@ -31,7 +31,7 @@ public class E3CheckBox {
 
         //deselected option 3 of check box aga
             for(WebElement checkBoxAgain : checkBoxs){
-                //get value of attitibute "value"
+                //get value of attribute "value"
                  String option =checkBoxAgain.getAttribute("value");
 
                  if(option.equalsIgnoreCase("Option-3")){

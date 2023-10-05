@@ -22,6 +22,7 @@ public class HW2RadioButton {
         if(femaleStatus){
             btnShow.click();
         }
+
         Thread.sleep(2000);
         //check again female radio btn is displayed or not
         boolean checkAgain=femaleRadiobtn.isDisplayed();
