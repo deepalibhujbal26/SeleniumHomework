@@ -23,6 +23,7 @@ public class P1Iframe {
         //click on the checkbox
         ////using the name or id method
         //here we have to check checkbox frame is it iframe, then what it is inside other frame or
+        driver.switchTo().defaultContent() ;
         driver.switchTo().frame("checkbox-iframe");
         WebElement selectcheckbox= driver.findElement(By.xpath("//input[@type='checkbox']"));
         selectcheckbox.click();

@@ -12,6 +12,7 @@ public class Practice3Alerts {
         driver.manage().window().maximize();
 
         driver.get("http://35.175.58.98/javascript-alert-box-demo.php");
+        //Javascirpt based Alerts we can accept ,dismiss,getText(),sendKeys()
 
       //  WebElement slert1= driver.findElement(By.xpath());
      WebElement firstalert  = driver.findElement(By.xpath("//button[@onclick='myAlertFunction()']"));

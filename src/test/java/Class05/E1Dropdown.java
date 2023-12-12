@@ -21,6 +21,7 @@ public class E1Dropdown {
         Select sel=new Select(dropdown);
             //used any method out of index(), visibleText(),byValue() select your desired option
         sel.selectByVisibleText("Friday");
+
         Thread.sleep(3000);
         //select the value of attribute using selectByValue
        sel.selectByValue("Tuesday");
